@@ -7,11 +7,7 @@
     "packagerOpts": {
       "nonPersistent": "--nonPersistent"
     },
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,14 +19,12 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.hngi6.loginScreen"
     },
-    "description": "",
+    "description": "A simple Authentication App. Register with your email and get confirmation code sent to you email and enjoy this awesome one-pager",
     "githubUrl": "https://github.com/cortehz/login-hng6i"
   }
 }

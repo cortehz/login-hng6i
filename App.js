@@ -12,7 +12,7 @@ class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Welcome to my HNGi6 Login Page</Text>
+        <Text style={styles.text}>Welcome to my HNGi6 Login Page</Text>
       </View>
     );
   }
@@ -21,10 +21,12 @@ class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#666",
     alignItems: "center",
+    padding: 10,
     justifyContent: "center"
-  }
+  },
+  text: { color: "#fff", fontSize: 25 }
 });
 
 export default withAuthenticator(App, true);
