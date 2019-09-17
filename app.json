@@ -1,9 +1,12 @@
 {
   "expo": {
     "name": "Auth app",
-    "slug": "customize-amplify-auth-ui",
+    "slug": "hng-login",
     "privacy": "public",
     "sdkVersion": "34.0.0",
+    "packagerOpts": {
+      "nonPersistent": "--nonPersistent"
+    },
     "platforms": [
       "ios",
       "android",
@@ -24,7 +27,10 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hngi6.loginScreen"
+    },
+    "description": "",
+    "githubUrl": "https://github.com/cortehz/login-hng6i"
   }
 }
